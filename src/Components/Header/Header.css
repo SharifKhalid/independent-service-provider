@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: xx-large;
+    font-weight: 600;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    
+}
+.header-div{
+    background-color: blanchedalmond;
+    padding: 1rem;
+}
