@@ -36,15 +36,15 @@ const Login = () => {
             <form onSubmit={handleLogin}>
                 <div className='email'>
                     <label for="Email">Email address</label>
-                    <input onBlur={handleEmail} type="email" id="Email" required/>
+                    <input onBlur={handleEmail} className="input" type="email" id="Email" required/>
                 </div>
                 
                 <div className='password'>
                     <label for="Password">Password</label>
-                    <input onBlur={handlePassword} type="password" id="Password" required/>
+                    <input onBlur={handlePassword} className="input" type="password" id="Password" required/>
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" className="btn">Submit</button>
             </form>
         </div>
     );
