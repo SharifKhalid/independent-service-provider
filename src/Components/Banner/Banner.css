@@ -1,0 +1,13 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.banner-img{
+    width: 400px;
+    height: 400px;
+}

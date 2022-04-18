@@ -1,0 +1,24 @@
+.img{
+    height: 400px;
+    width: 300px;
+    margin-bottom: 1rem;
+}
+
+.div-1 button {
+    height: 40px;
+    width: 300px;
+    margin-top: 1rem;
+    background-color: bisque;
+    font-size: larger;
+    font-weight: 600;
+}
+.my-service{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.home-h2{
+    text-align: center;
+}

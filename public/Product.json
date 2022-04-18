@@ -1,14 +1,8 @@
 [
     {
         "name":"khalid",
-        "id": 1
-    },
-    {
-        "name":"masum",
-        "id": 2
-    },
-    {
-        "name":"sharif",
-        "id": 3
+        "id": 1,
+        "img":"https://i.ibb.co/THQDKwf/nathanael-desmeules-QSPQH-B9-Ops-unsplash-1.jpg"
     }
+    
 ]
