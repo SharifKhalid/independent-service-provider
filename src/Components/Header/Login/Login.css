@@ -1,0 +1,17 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+.form form{
+    border: 1px solid wheat;
+    padding: 1rem;
+}
+
+.email label{
+    display: block;
+}
+.password label{
+    display: block;
+}

@@ -12,6 +12,8 @@ const Header = () => {
             <CustomLink to="/checkout">Checkout</CustomLink>
             <CustomLink to="/blog">Blogs</CustomLink>
             <CustomLink to="/about">About Me</CustomLink>
+            <CustomLink to="/login">Login</CustomLink>
+            <CustomLink to="/registration">Registration</CustomLink>
             </nav>
         </div>
         
