@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { Link } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import './Registration.css'
 const Registration = () => {
@@ -44,7 +45,12 @@ const Registration = () => {
                 </div>
                 
                 <button type="submit" className="btn">Submit</button>
+                <div className='link'>
+                    <p>If already login</p> <Link to='/login'>go to Login</Link>
+                </div>
             </form>
+
+                
         </div>
     );
 };

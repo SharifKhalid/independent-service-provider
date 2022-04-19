@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Login.css'
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -45,6 +46,9 @@ const Login = () => {
                 </div>
                 
                 <button type="submit" className="btn">Submit</button>
+                <div className='link'>
+                    <p>If already login</p> <Link to='/registration'>go to Registration</Link>
+                </div>
             </form>
         </div>
     );
