@@ -26,7 +26,7 @@ const Blogs = () => {
                     Cloud Functions,
                     Cloud Messaging,
                     Hosting, এবং Cloud Storage 
-                    https://professional-photographe-a64a3.web.app </p>
+                    </p>
             </div>
         </div>
     );
